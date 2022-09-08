@@ -2,6 +2,8 @@
 
 /**
  * main - entry point of code
+ *
+ * Return: void
  */
 int main(void)
 {
