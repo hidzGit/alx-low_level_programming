@@ -7,18 +7,17 @@
  */
 int main(void)
 {
-	char alphabet;
-	alphabet = 'a';
+	char alphabet = 'a';
 
-	while (alphabet <= 'z'){
-		
-	if ((alphabet=='e') || (alphabet=='q')){
+	while (alphabet <= 'z')
+	{
+	if ((alphabet == 'e') || (alphabet == 'q'))
+	{
 		alphabet++;
 		continue;
 	}
-
 	printf("%c", alphabet);
 	alphabet++;
 	}
-	return 0;
+	return (0);
 }
