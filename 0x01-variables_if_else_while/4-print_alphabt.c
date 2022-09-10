@@ -3,7 +3,7 @@
 /**
  * main - print a -z
  *
- * skip e and q
+ * Return: skip e and q
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 		alphabet++;
 		continue;
 	}
-	printf("%c", alphabet);
+	putchar(alphabet);
 	alphabet++;
 	}
 	return (0);
