@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - print hexdecnumbers, b16
  * @prints b16 num sing while loop
  *
