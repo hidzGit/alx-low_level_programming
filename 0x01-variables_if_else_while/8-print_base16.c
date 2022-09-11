@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int num = 0x1;
+	int num = 0x0;
 
 	while (num <= 0xf)
 	{
