@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of three different digits, in ascending order, separated by a comma followed by a space.
+ * main - Prints all possible combinations of three different digits,
+ * in ascending order, sieparated by a comma followed by a space.
  *
  * Return: Always 0.
  */
@@ -12,6 +13,7 @@ int main(void)
 	int digit1;
 	int digit2;
 	int digit3;
+
 	digit1 = 48;
 	digit2 = 49;
 	digit3 = 50;
