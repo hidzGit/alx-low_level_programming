@@ -7,6 +7,10 @@
  * Return: last digit,y
  */
 int print_last_digit(int x)
+{
+	int x, y;
+
 	_putchar(x % 10 + '0');
 	y = _putchar(x % 10 + '0');
 	return (y);
+}
