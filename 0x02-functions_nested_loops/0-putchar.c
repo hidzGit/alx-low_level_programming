@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - print _putchar using puchar
@@ -13,9 +13,9 @@ y = 0;
 
 while (y < 8)
 {
-putchar(x[y]);
+_putchar(x[y]);
 y++;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
