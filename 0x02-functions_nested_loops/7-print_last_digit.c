@@ -4,12 +4,12 @@
  * print_last_digit - print input number last digit;
  * @x: input digit;
  * @y: last digit of input;
- * Return: last digit,y
+ * Return: 0
  */
 int print_last_digit(int x)
 {
 int y;
-
-	y = _putchar((x % 10) + '0');
-	return (y);
+	
+	_putchar(x % 10 + '0');
+	return (0);
 }
