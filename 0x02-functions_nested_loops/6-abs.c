@@ -12,7 +12,7 @@ int _abs(int x)
 	else
 	{
 		x *= -1;
-		_putcher('x')
+		_putchar('x');
 	}
 return (0);
 }
