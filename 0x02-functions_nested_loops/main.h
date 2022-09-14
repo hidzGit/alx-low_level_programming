@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H_INCLUDED
-#define HOLBERTON_H_INCLUDED
+#ifndef Hidz_funct
+#define Hidz_funct
 
 int _putchar(char);
 
