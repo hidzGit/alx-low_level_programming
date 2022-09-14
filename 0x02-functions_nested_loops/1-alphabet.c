@@ -4,15 +4,14 @@
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	int alpha = 'a';
 	
-	print_alphabet();
-	while(alpha < 'z')
+	while(alpha <= 'z')
 	{
 	_putchar(alpha);
 	alpha++;
 	}
-	return (0);
+	_putchar('\n');
 }
