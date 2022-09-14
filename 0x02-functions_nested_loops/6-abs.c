@@ -16,6 +16,6 @@ int _abs(int x)
 		x *= -1;
 		return (x);
 	}
-return (0)
+return (0);
 }
 
