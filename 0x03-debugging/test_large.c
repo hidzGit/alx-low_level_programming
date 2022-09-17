@@ -41,5 +41,6 @@ int main(void)
 	int largest;
 	
 	int largest_no(int a, int c, int b);
-
+	 q = largest_no;
+	return (q);
 }
