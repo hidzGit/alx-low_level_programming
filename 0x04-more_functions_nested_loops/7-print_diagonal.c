@@ -1,24 +1,28 @@
 #include "main.h"
 
 /**
- * print_diagonal - print slash in a diagonal manner
- * @n: number of times the slash is printed
+ * print_diagonal - print diagonal with /
+ * @n: number of diagonals to print
  */
 
 void print_diagonal(int n)
 {
-	int i;
+	int len, space;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	if (n > 0)
 	{
-		i = 1;
-
-		while (i <= n)
+		for (len = 0; len < n; len++)
 		{
-			_putchar(' ');
-			i++;
+			for (space = 0; space < len; space++)
+				_putchar(' ');
+			_putchar('\\');
+
+			if (len == n - 1)
+				continue;
+
+			_putchar('\n');
 		}
 	}
+
+	_putchar('\n');
 }
