@@ -8,30 +8,19 @@
  * Return: positive diff of the string in s1>s2, neg if s2>s1 and 0 if equal
  */
 
+
+
+
 int _strcmp(char *s1, char *s2)
 {
-	int val1, val2, index1, index2, ans;
+	int i;
 
-	val1 = 0;
-	for (index1 = 0; s1[index1] != '\0'; index1++)
+	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
 	{
-		val1 = val1 + s1[index1];
+		if (s1[i] - s2[i])
+		{
+			return (s1[i] - s2[i]);
+		}
 	}
-	val2 = 0;
-	for (index2 = 0; s2[index2] != '\0'; index2++)
-	{
-		val2 = val2 + s2[index2];
-	}
-	if (val1 > val2)
-	{
-		ans = val1 - val2;
-	}
-	else if (val2 > val1)
-	{
-		ans = -(val2 - val1);
-	}
-	else
-		ans = 0;
-
-	return (ans);
+	return (0);
 }
