@@ -20,6 +20,8 @@ char *_strchr(char *s, char c)
 			ans = &(s[i]);
 			return (ans);
 		}
+		else
+			ans = NULL;
 	}
-	return (NULL);
+	return (ans);
 }
