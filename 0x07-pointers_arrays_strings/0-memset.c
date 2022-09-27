@@ -2,6 +2,7 @@
 
 /**
  * _memset - assign char b n number of char in string s
+ * @s: string
  * @b: value to be assigned
  * @n: number of bytes to assign
  * Return: s with assigned values
