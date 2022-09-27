@@ -11,23 +11,18 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int i, k;
-	int check = 1;
 	char *ans;
 
-	for (i = 0; s[i] != '\0' && check; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		check = 0;
-		for (k = 0; accept[k]; k++)
+		for (k = 0; accept[k] != '\0'; k++)
 		{
 			if (s[i] == accept[k])
 			{
-				check = 1;
-				ans = (accept + k);
-				break;
+				ans = &s[i];
+				return (ans);
 			}
 		}
-		if (check == 0)
-			ans = NULL;
 	}
-	return (ans);
+	return (0);
 }
