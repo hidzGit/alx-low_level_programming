@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * _pow_recursion - print the power of int
