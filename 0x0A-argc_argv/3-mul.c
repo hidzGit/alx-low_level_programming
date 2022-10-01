@@ -5,6 +5,7 @@
  * main - multiply two int
  * @argc: length of mat
  * @argv: array
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
