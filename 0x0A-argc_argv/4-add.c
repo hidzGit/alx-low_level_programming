@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i = 1, len = 0, boool = 0;
+	int i = 1, len = 0, boool = 0, x;
 
 	if (argc == 1)
 	{
@@ -28,10 +28,11 @@ int main(int argc, char *argv[])
 	}
 	if (boool == 0)
 	{
-		i = 0;
+		i = 1;
 		while (i < argc)
 		{
-			len += atoi(argv[i]);
+			x = atoi(argv[i]);
+			len += x;
 			i++;
 		}
 		printf("%d", len);
