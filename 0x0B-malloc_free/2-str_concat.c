@@ -10,6 +10,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	int index, len1, len2, temp, fin_len;
+	if (s1 == NULL)
 	char *conc_str;
 
 	if (s1 == NULL)
